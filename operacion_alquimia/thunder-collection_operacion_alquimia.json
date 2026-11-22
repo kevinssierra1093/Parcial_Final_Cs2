@@ -1,0 +1,166 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "Operación Alquimia - Protocolo Savitar",
+  "collectionId": "operacion-alquimia-collection",
+  "dateExported": "2026-11-21",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "req-f1",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F1 - Procesamiento Completo (POST /alquimia)",
+      "url": "http://localhost:8080/alquimia",
+      "method": "POST",
+      "sortNum": 10000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"devices\": [\n    {\n      \"name\": \"STAR Labs\",\n      \"distance\": 485.41,\n      \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\n    },\n    {\n      \"name\": \"CCPD\",\n      \"distance\": 265.75,\n      \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\n    },\n    {\n      \"name\": \"S.T.A.R. Satellite\",\n      \"distance\": 600.52,\n      \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\n    }\n  ]\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "req-f2-star",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F2 - Registro Individual: STAR Labs (POST)",
+      "url": "http://localhost:8080/alquimia/star-labs",
+      "method": "POST",
+      "sortNum": 20000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"distance\": 485.41,\n  \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "req-f2-ccpd",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F2 - Registro Individual: CCPD (POST)",
+      "url": "http://localhost:8080/alquimia/ccpd",
+      "method": "POST",
+      "sortNum": 30000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"distance\": 265.75,\n  \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "req-f2-satellite",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F2 - Registro Individual: Satellite (POST)",
+      "url": "http://localhost:8080/alquimia/star-satellite",
+      "method": "POST",
+      "sortNum": 40000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"distance\": 600.52,\n  \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "req-f3",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F3 - Consulta y Procesamiento Acumulado (GET)",
+      "url": "http://localhost:8080/alquimia",
+      "method": "GET",
+      "sortNum": 50000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": []
+    },
+    {
+      "_id": "req-f4",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F4 - Reemplazo Completo: CCPD (PUT)",
+      "url": "http://localhost:8080/alquimia/ccpd",
+      "method": "PUT",
+      "sortNum": 60000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"distance\": 265.75,\n  \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "req-f5",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F5 - Actualización Parcial: Distancia CCPD (PATCH)",
+      "url": "http://localhost:8080/alquimia/ccpd",
+      "method": "PATCH",
+      "sortNum": 70000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"distance\": 265.75\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "req-f6",
+      "colId": "operacion-alquimia-collection",
+      "containerId": "",
+      "name": "F6 - Eliminación: CCPD (DELETE)",
+      "url": "http://localhost:8080/alquimia/ccpd",
+      "method": "DELETE",
+      "sortNum": 80000,
+      "created": "2026-11-21",
+      "modified": "2026-11-21",
+      "headers": []
+    }
+  ]
+}

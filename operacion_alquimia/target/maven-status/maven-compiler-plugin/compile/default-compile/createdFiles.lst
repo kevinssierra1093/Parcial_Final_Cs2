@@ -1,0 +1,5 @@
+application\alquimia\infrastructure\adapters\in\rest\dtos\DeviceRequest.class
+application\alquimia\infrastructure\adapters\in\rest\dtos\AlchemyResponseDto.class
+application\alquimia\infrastructure\adapters\in\rest\dtos\CompleteRequest.class
+application\alquimia\infrastructure\adapters\in\rest\AlquimiaExceptionHandler.class
+application\alquimia\infrastructure\adapters\in\rest\AlquimiaRestController.class
